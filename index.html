@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Movie Database</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="movies.html">Movies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login/SignUp</a></li>
+                <div class="search-container">
+                    <input type="text" id="search-input" placeholder="Search for movies...">
+                    <button onclick="searchMovies()">Search</button>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Welcome to the Ultimate Movie Collection</h2>
+            <p>Explore a vast collection of movies and their details.</p>
+            <a href="movies.html" class="btn">Explore Now</a>
+        </div>
+    </section>
+
+    <section class="trending">
+        <h2>Search Result</h2>
+        <div class="movie-list" id="trending-movies"></div>
+    </section>
+
+    <section class="popular-movies">
+        <h2>Popular Movies</h2>
+        <div class="movie-list" id="popular-movies"></div>
+    </section>
+
+    <section class="highly-rated-movies">
+        <h2>Highly Rated Movies</h2>
+        <div class="movie-list" id="highly-rated-movies"></div>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Us</h2>
+        <p>Email: xyzmovie@vit.com</p>
+    </section>
+
+    <script src="api.js"></script>
+</body>
+
+</html>
