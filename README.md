@@ -1,3 +1,5 @@
+##LIVE PREVIEW : https://heypaarthbhatnagar.github.io/MDMS/
+
 This project is a **Movie Database Web Application** that allows users to explore a vast collection of movies, view detailed information about each movie, and search for specific movies. The application fetches data from **The Movie Database (TMDB) API** and dynamically displays it on the web page. It includes features such as:
 
 1. **Search Functionality**: Users can search for movies by title, and the application will display the search results dynamically.
